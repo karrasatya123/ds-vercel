@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GitHub Repos Viewer</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#93a3b8;--accent:#38bdf8;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial;color:#e6eef6;background:linear-gradient(180deg,#061022 0%, #071029 60%);min-height:100vh}
+    header{padding:18px 20px;display:flex;gap:14px;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:46px;height:46px;display:grid;place-items:center;border-radius:10px;background:linear-gradient(135deg,var(--accent),#7c3aed);font-weight:700;color:#062847}
+    h1{font-size:18px;margin:0}
+    p.lead{margin:0;color:var(--muted);font-size:13px}
+    .controls{display:flex;gap:8px;align-items:center}
+    input[type="text"],select{padding:10px 12px;border-radius:10px;background:var(--card);border:1px solid rgba(255,255,255,0.03);color:#e6eef6;min-width:180px}
+    button{padding:10px 12px;border-radius:10px;border:0;background:var(--accent);color:#062847;font-weight:600;cursor:pointer}
+    main{padding:20px}
+    .meta{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+    .stats{color:var(--muted);font-size:13px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:
